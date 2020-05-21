@@ -140,17 +140,17 @@ footer {
     
 }
 
-footer img {
-    height: 3rem;
+/*footer img {
+    height: 4rem;
     margin: 1.5rem 0;
-}
+}*/
 
 footer a {
     color: #000;
 }
 
 footer svg.svg-inline--fa {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1.2rem .5rem 0 0;
 }
 
@@ -264,5 +264,13 @@ button[type="submit"] {
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+  footer {
+      max-height: 20%;
+      max-width: 100%;
+      margin-bottom: 100px;
+  }
+  .caption {
+      top: 9rem;
   }
 }
