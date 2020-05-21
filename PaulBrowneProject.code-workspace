@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "PaulBrowneProjectMock-1",
+			"path": "..\\PaulBrowneProjectMock-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "PaulBrowneTest1"
+	}
+}
