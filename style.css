@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+body {
+        overflow-x: hidden;
+        font-family: 'Cabin', sans-serif;
+}
+.offset:before {
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+}
+/*Start Naviagtion*/
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(18, 2, 24, 0.5)!important;
+}
+
+.navbar-brand  {
+    height: 2rem;
+    color: rgba(18, 2, 24, 0.5);
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffe6;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #666633;
+}
+/*End Navigation*/
+
+/*Start Landing Page Details*/
+
+.container-fluid {
+    filter: hue-rotate(60%)  opacity(80%);
+    background-size: cover;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: fill;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: -100;
+    overflow: hidden;
+    background-color: rgba(18, 2, 24, 0.5);
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: #ffffe6;
+    text-transform: uppercase;
+    transition: all 1000ms;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 600;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem #ffffe6;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem #ffffe6;
+    padding-bottom: 1.6rem;
+    font-weight: 300;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    border-color: #ffffe6;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    color: #ffffe6;
+}
+
+.col-12 {
+    filter: hue-rotate(60%)  opacity(80%);
+    background-size: cover;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: fill;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: -100;
+    overflow: hidden;
+ }
+
+.col-12 {
+    animation-name: img-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    transition: all 1000ms;
+    
+}
+@keyframes img-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+/*End Landing Page Details*/
+
+/*Start Footer*/
+footer {
+    /*background-color: #40474e;*/
+    color: rgb(255, 255, 230, 0.8);
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+    background: rgba(0, 0, 0, 0.0)!important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: #000;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 4rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+    color: #666633!important;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}
+ 
+/*#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%
+    background-size: cover;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: fill;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: -100;
+    overflow: hidden;
+    filter: sepia(80%)  opacity(65%);
+  }*/
+
+/*Start Biography*/
+
+section {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 100px;
+    font-family: 'Cabin', sans-serif;
+    filter: none;
+    color: #ffffe6;
+    
+}
+
+.img-wrap img {
+    max-width: 150%;
+    position: relative;
+    margin-bottom: 40%;
+    filter: none;
+}
+/*End Biography*/
+
+/*Start Contact Form*/
+ 
+.contact-heading {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: hsl(44, 31%, 35%);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 65px;
+    vertical-align: middle;
+    /*width: 100%;*/
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
